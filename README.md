@@ -11,7 +11,7 @@ Currently, my interests lie in artificial intelligence and deep learning. I am l
 
 ### Education
 Bachelor’s in Computer Engineering
-Bülent Ecevit University, GPA: 3.18
+Bülent Ecevit University, GPA: 3.29
 (Expected graduation: June 2025)
 
 High School
