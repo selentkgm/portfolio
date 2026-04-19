@@ -1,19 +1,19 @@
 # Selen Tekgümüş
-### **Jr. Backend Developer | Java & Spring Boot | AI & Data Projects | GKL’25**
+### **Junior Software Developer | Java & Spring Boot | AI & Data Projects | GKL’25**
 
 [Email](mailto:870stekgumus@gmail.com) | [LinkedIn](https://linkedin.com/in/selentkgm) | [GitHub](https://github.com/selentkgm) | [Portfolio](https://selentkgm.github.io/portfolio/)
 
 ---
 
-#  English Version
+# 🇬🇧 English Version
 
 ## 👤 Profile
-I am a 4th-year Computer Engineering student at Bülent Ecevit University, graduating in June 2025. My professional focus is on designing and implementing scalable, secure, and modular backend architectures using **Java and Spring Boot**. I have experience in integrating modern technologies like PostgreSQL for data management and utilizing Docker and AWS for deployment.
+I am a Computer Engineering graduate from Bülent Ecevit University. As a **Junior Software Developer**, my professional focus is on designing and implementing scalable, secure, and modular backend architectures using the **Java and Spring Boot** ecosystem. I have hands-on experience in integrating modern technologies like PostgreSQL for data management and utilizing Docker and AWS for cloud deployment.
 
-In addition to my backend expertise, I have a strong background in **Artificial Intelligence and Deep Learning**, specifically with YOLOv5 and PyTorch. I am currently leading a **TÜBİTAK 2209-A** supported project that won first place at **Startup 2025**. My goal is to build high-performance systems that combine robust backend engineering with data-driven innovation.
+In addition to my backend expertise, I have a strong background in **Artificial Intelligence and Deep Learning**, specifically with YOLOv5 and PyTorch. I led a **TÜBİTAK 2209-A** supported project that won first place at **Startup 2025**. My goal is to build high-performance systems that combine robust backend engineering with data-driven innovation to solve complex real-world problems.
 
 ## 🎓 Education
-* **Bülent Ecevit University** | B.Sc. in Computer Engineering | **GPA: 3.36** (2021 – 2025)
+* **Bülent Ecevit University** | B.Sc. in Computer Engineering | **GPA: 3.36**
 * **Geleceğin Kadın Liderleri (GKL’25)** | Career and Leadership Development Program
 * **Kemal Hasoğlu High School** | High School Diploma
 
@@ -55,15 +55,15 @@ In addition to my backend expertise, I have a strong background in **Artificial 
 
 ---
 
-#  Türkçe Versiyon
+# 🇹🇷 Türkçe Versiyon
 
 ## 👤 Profil
-Bülent Ecevit Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim (Haziran 2025 mezunu). Profesyonel odağım; **Java ve Spring Boot** ekosistemini kullanarak ölçeklenebilir, güvenilir ve modüler backend mimarileri tasarlamaktır. PostgreSQL ile veritabanı yönetimi, Docker ve AWS ile sistem dağıtımı gibi modern teknolojilerde yetkinliğe sahibim.
+Bülent Ecevit Üniversitesi Bilgisayar Mühendisliği bölümünden mezun bir **Junior Software Developer** olarak profesyonel odağım; **Java ve Spring Boot** ekosistemini kullanarak ölçeklenebilir, güvenilir ve modüler backend mimarileri tasarlamaktır. PostgreSQL ile veritabanı yönetimi, Docker ve AWS ile bulut sistem dağıtımı gibi modern teknolojilerde uygulama deneyimine sahibim.
 
-Backend uzmanlığımın yanı sıra, YOLOv5 ve PyTorch ile **Yapay Zeka ve Derin Öğrenme** alanlarında güçlü bir geçmişe sahibim. Şu anda **TÜBİTAK 2209-A** destekli ve **Startup 2025** birincilik ödüllü bir projenin ekip liderliğini yürütüyorum. Amacım, sağlam backend mühendisliğini veriye dayalı inovasyonla birleştiren yüksek performanslı sistemler inşa etmektir.
+Backend uzmanlığımın yanı sıra, YOLOv5 ve PyTorch ile **Yapay Zeka ve Derin Öğrenme** alanlarında güçlü bir akademik ve proje geçmişine sahibim. **TÜBİTAK 2209-A** destekli ve **Startup 2025** birincilik ödüllü bir projenin ekip liderliğini başarıyla yürüttüm. Amacım, sağlam backend mühendisliğini veriye dayalı inovasyonla birleştirerek karmaşık gerçek dünya problemlerine yüksek performanslı çözümler inşa etmektir.
 
 ## 🎓 Eğitim
-* **Bülent Ecevit Üniversitesi** | Bilgisayar Mühendisliği Lisans | **GANO: 3.36** (2021 – 2025)
+* **Bülent Ecevit Üniversitesi** | Bilgisayar Mühendisliği Lisans | **GANO: 3.36**
 * **Geleceğin Kadın Liderleri (GKL’25)** | Kariyer ve Liderlik Gelişim Programı
 * **Kemal Hasoğlu Anadolu Lisesi** | Lise Diploması
 
