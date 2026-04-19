@@ -5,7 +5,7 @@
 
 ---
 
-# 🇬🇧 English Version
+#  English Version
 
 ## 👤 Profile
 I am a 4th-year Computer Engineering student at Bülent Ecevit University, graduating in June 2025. My professional focus is on designing and implementing scalable, secure, and modular backend architectures using **Java and Spring Boot**. I have experience in integrating modern technologies like PostgreSQL for data management and utilizing Docker and AWS for deployment.
@@ -55,7 +55,7 @@ In addition to my backend expertise, I have a strong background in **Artificial 
 
 ---
 
-# 🇹🇷 Türkçe Versiyon
+#  Türkçe Versiyon
 
 ## 👤 Profil
 Bülent Ecevit Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim (Haziran 2025 mezunu). Profesyonel odağım; **Java ve Spring Boot** ekosistemini kullanarak ölçeklenebilir, güvenilir ve modüler backend mimarileri tasarlamaktır. PostgreSQL ile veritabanı yönetimi, Docker ve AWS ile sistem dağıtımı gibi modern teknolojilerde yetkinliğe sahibim.
