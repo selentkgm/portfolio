@@ -108,37 +108,6 @@
       border-bottom: 1px solid var(--border);
     }
 
-    .catwalk-track {
-      position: absolute;
-      inset: 0;
-      overflow: hidden;
-      pointer-events: none;
-      z-index: 1;
-    }
-
-    .catwalk {
-      position: absolute;
-      bottom: 2px;
-      left: 0;
-      height: 38px;
-      width: auto;
-      animation: catWalk 16s linear infinite;
-      will-change: transform;
-      image-rendering: pixelated;
-    }
-
-    @keyframes catWalk {
-      0%   { transform: translateX(0) scaleX(1); }
-      48%  { transform: translateX(calc(100vw - 80px)) scaleX(1); }
-      50%  { transform: translateX(calc(100vw - 80px)) scaleX(-1); }
-      98%  { transform: translateX(0) scaleX(-1); }
-      100% { transform: translateX(0) scaleX(1); }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .catwalk { animation: none; display: none; }
-    }
-
     nav {
       display: flex;
       justify-content: space-between;
@@ -146,8 +115,6 @@
       padding: 18px 24px;
       max-width: 1200px;
       margin: 0 auto;
-      position: relative;
-      z-index: 2;
     }
 
     .logo {
@@ -932,9 +899,6 @@
 <body>
 
   <header>
-    <div class="catwalk-track" aria-hidden="true">
-      <img src="assets/images/catwalkx2.gif" class="catwalk" alt="">
-    </div>
     <nav>
       <a href="#hero" class="logo">SELEN<span>.</span>TKGM</a>
       <div class="nav-cluster">
