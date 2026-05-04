@@ -1,0 +1,15 @@
+# Geçici çalışma dosyaları
+.tmp/
+
+# Kök dizindeki orijinal kaynak dosyalar (asset/ içine kopyalandı)
+/foto.png
+/cv_selentekgumus.pdf
+
+# Editör / OS dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Bağımlılıklar (gerekirse)
+node_modules/
