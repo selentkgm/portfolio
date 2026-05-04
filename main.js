@@ -1,4 +1,7 @@
 (() => {
+  // Dil değiştirici — sayfa yüklenir yüklenmez çalıştır (FOUC'u önlemek için ilk işlem)
+  initLangToggle();
+
   const fadeEls = document.querySelectorAll('.fade-in');
   const skillBars = document.querySelectorAll('.skill-progress');
 
@@ -39,6 +42,48 @@
 
   // Hero shader background (Three.js)
   initHeroShader();
+
+  function initLangToggle() {
+    const META = {
+      tr: {
+        title: 'Selen Tekgümüş — Jr. Software Developer | Java & Spring Boot',
+        description: 'Selen Tekgümüş — Java ve Spring Boot odaklı Junior Backend Developer. Ölçeklenebilir backend mimarileri, AI ve veri projeleri üzerine portfolyo.',
+        ogTitle: 'Selen Tekgümüş — Jr. Software Developer',
+        ogDescription: 'Java & Spring Boot | AI & Data Projects — Junior Backend Developer portfolyosu.'
+      },
+      en: {
+        title: 'Selen Tekgümüş — Jr. Software Developer | Java & Spring Boot',
+        description: 'Selen Tekgümüş — Junior Backend Developer focused on Java and Spring Boot. Portfolio of scalable backend architectures, AI and data-driven projects.',
+        ogTitle: 'Selen Tekgümüş — Jr. Software Developer',
+        ogDescription: 'Java & Spring Boot | AI & Data Projects — Junior Backend Developer portfolio.'
+      }
+    };
+
+    const stored = localStorage.getItem('lang');
+    const browserLang = (navigator.language || 'tr').toLowerCase().startsWith('en') ? 'en' : 'tr';
+    const initial = stored === 'tr' || stored === 'en' ? stored : browserLang;
+    setLang(initial);
+
+    document.querySelectorAll('.lang-btn[data-set-lang]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        setLang(btn.dataset.setLang);
+      });
+    });
+
+    function setLang(lang) {
+      if (lang !== 'tr' && lang !== 'en') lang = 'tr';
+      document.documentElement.lang = lang;
+      const meta = META[lang];
+      document.title = meta.title;
+      const descEl = document.querySelector('meta[name="description"]');
+      if (descEl) descEl.content = meta.description;
+      const ogTitleEl = document.querySelector('meta[property="og:title"]');
+      if (ogTitleEl) ogTitleEl.content = meta.ogTitle;
+      const ogDescEl = document.querySelector('meta[property="og:description"]');
+      if (ogDescEl) ogDescEl.content = meta.ogDescription;
+      try { localStorage.setItem('lang', lang); } catch (e) { /* private mode */ }
+    }
+  }
 
   function initHeroShader() {
     const hero = document.getElementById('hero');
